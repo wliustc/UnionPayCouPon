@@ -47,8 +47,8 @@ App({
       wx.request({
           url: obj, //仅为示例，并非真实的接口地址
           data: {
-          x: '' ,
-          y: ''
+            x: '' ,
+            y: ''
           },
           header: {
             'content-type': 'application/json'
@@ -58,6 +58,7 @@ App({
           }
       })
     },
+    
     requestCallback:function(obj){
 
     },

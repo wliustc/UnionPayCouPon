@@ -1,4 +1,3 @@
-//index.js
 //获取应用实例
 var app = getApp()
 function initSubMenuDisplay() { 
@@ -57,7 +56,8 @@ Page({
     onLoad:function(e){
       var that = this
       app.showDialog()
-      app.request(that.data.categoryUrl+"&cityCd="+that.data.cityCd+"&firstTypeCd="+""+"&bizAreaCd="+""+"&orderType="+4, function callback(obj){
+      var UrlStr = that.data.categoryUrl+"&cityCd="+that.data.cityCd+"&firstTypeCd="+""+"&bizAreaCd="+""+"&orderType="+4
+      app.request(UrlStr, function callback(obj){
         app.dismissDialog()
         var jsonArr = new Array();
         for(var i=0; i<obj.length; i++){
@@ -208,11 +208,9 @@ Page({
 
         var that = this
         app.showDialog()
-        console.log("==============")
-        console.log(that.data.categoryUrl+"&cityCd="+that.data.cityCd+"&firstTypeCd="+tempIndexX+"&bizAreaCd="+tempIndexY+"&orderType="+tempIndexZ)
-        app.request(that.data.categoryUrl+"&cityCd="+that.data.cityCd+"&firstTypeCd="+tempIndexX+"&bizAreaCd="+tempIndexY+"&orderType="+tempIndexZ, function callback(obj){
+        var UrlStr = that.data.categoryUrl+"&cityCd="+that.data.cityCd+"&firstTypeCd="+tempIndexX+"&bizAreaCd="+tempIndexY+"&orderType="+tempIndexZ
+        app.request(UrlStr, function callback(obj){
           app.dismissDialog()
-          console.log("that.data.cityCd"+that.data.cityCd)
           var jsonArr = new Array();
           for(var i=0; i<obj.length; i++){
             var id
