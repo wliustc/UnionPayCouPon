@@ -1,0 +1,155 @@
+.user-section{
+    height:60rpx;
+    width: 100%;
+    margin-top:6px; 
+    margin-left:10px; 
+}
+/*一级菜单*/
+.user-section dt {
+   font-size:15px;
+   float:left;
+   width: 33%;
+   height: 38px;
+   border-right: 1px solid #d2d2d2;
+   border-bottom: 1px solid #d2d2d2; 
+   text-align: center;
+   background-color: #fff; 
+   color: #5a5a5a;
+   line-height: 38px;
+   font-weight: bold;
+   font-family:"Microsoft YaHei";
+}
+/*二级菜单外部容器样式*/
+.user-section dd{ 
+    position: absolute;
+    width: 50%;
+    top:37px; 
+    left:20px;
+    z-index:999;
+}
+/*二级菜单普通样式*/
+.user-section li{
+   font-size: 14px; 
+   line-height: 34px;
+   color: #575757;
+   height: 34px;
+   display: block;
+   padding-left: 8px;
+   background-color: #ccc;
+   border-bottom: 1px solid #dbdbdb;
+   font-family:"Microsoft YaHei";
+}
+.user-section li.highlight{
+   background-color: #e4e4e4;
+}
+/*总菜单容器*/
+.menu {display: block;height: 38px;margin-top:20px }
+/*一级菜单*/
+.menu dt {
+   font-size:15px;
+   float:left;
+   width: 33%;
+   height: 38px;
+   border-right: 1px solid #d2d2d2;
+   border-bottom: 1px solid #d2d2d2; 
+   text-align: center;
+   background-color: #fff; 
+   color: #5a5a5a;
+   line-height: 38px;
+   font-weight: bold;
+   font-family:"Microsoft YaHei";
+}
+/*二级菜单外部容器样式*/
+.menu dd{ 
+    position: absolute;
+    width: 50%;
+    top:230px; 
+    left:20px;
+    z-index:999;
+}
+/*二级菜单普通样式*/
+.menu li{
+   font-size: 14px; 
+   line-height: 34px;
+   color: #575757;
+   height: 34px;
+   display: block;
+   padding-left: 8px;
+   background-color: #ccc;
+   border-bottom: 1px solid #dbdbdb;
+   font-family:"Microsoft YaHei";
+}
+.menu li.highlight{
+   background-color: #e4e4e4;
+}
+.show {
+   display: block;
+}
+.hidden {
+   display: none;
+}
+.menu li.highlight{
+   background-color: #f4f4f4;
+}
+
+.list{
+    width: 100%;
+    background: #fff;
+    /*border-top: 1px solid #333;*/
+    /*border-bottom: 1px solid #666;*/
+}
+.list-hir{
+  border-top: 1px solid #aaa;
+  height: 190rpx;
+}
+.list-item{
+    height: 175rpx;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+}
+.list-ver{
+  height: 20rpx;
+}
+.list-item-left{
+width:20%;
+}
+.pic{
+  margin-top: 7px; 
+}
+.list-item-right{
+width:27%;
+font-size: 35rpx;
+color:salmon;
+font-weight: bold;
+line-height: 40rpx;
+font-family:"Microsoft YaHei";
+}
+.list-item-middle{
+width:50%;
+font-size: 30rpx;
+text-align: left;
+/*margin-left: 20rpx;*/
+font-family:"Microsoft YaHei";
+}
+.f30{
+ font-size: 25rpx;
+ margin-top: 30px; 
+}
+.f-b{
+  font-weight: bold;
+}
+.f-black{
+  color: black;
+  margin-left:6px; 
+}
+.f-gray{
+  color: gray;
+  margin-left:6px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.unionPayLog{
+  margin-top: 0px;
+  margin-left:6px; 
+}

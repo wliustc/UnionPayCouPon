@@ -1,0 +1,116 @@
+<view class="container">
+    <view class="detail_item">
+        <image style="border-radius:15rpx;" class="pic" src="{{detail.counponUrl}}"></image>                
+        <view class="right_cont">
+            <text class="title1">{{detail.couponName}}</text>
+            <text class="title2">{{detail.des}}</text>
+            <view>
+                <text>卡要求：</text>
+                <text class="t1">{{detail.requrie}}</text>
+            </view>
+            <view>
+                <text>有效期：</text>
+                <text class="t2">{{detail.validtime}}</text>
+            </view>
+            <view>
+                <text>剩余数：</text>
+                <text class="t3">{{detail.remainder}}</text>
+            </view>         
+        </view>
+    </view>
+    <view class="text">
+        <view class="line_flag"></view>
+        <text>适用门店</text>
+        <navigator class="btn" url="../download/download">
+            <button size="mini" type="primary">下载银联钱包获取</button>    
+        </navigator> 
+    </view>
+    
+    <navigator class="nav" url="../locationlist/locationlist?billId={{detail.billId}}&cityCd={{detail.cityCd}}">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}"
+        interval="{{interval}}" duration="{{duration}}" >
+            <block wx:for="{{address}}">
+                <swiper-item>
+                    <text class="address">{{item.shopdes}}</text>
+                    <text class="address">地址：{{item.locatedes}}</text>
+                    <text class="address">电话：{{item.phonenum}}</text>
+                </swiper-item>
+            </block>
+        </swiper>
+        <view class="Grid">
+            <text class="cell-u-lof1" style="width:90%;height:30rpx;font-size:30rpx;color:#aaa">查看详情</text>
+            <image style="width:30rpx;height:30rpx;" src="../image/righticon.jpg"></image>       
+        </view>        
+    </navigator>
+    
+
+    <view class="text">
+        <view class="line_flag"></view>
+        <text>用户须知</text>
+    </view>
+    
+
+    <!--<view class="user">-->
+        <view class="Grid">
+            <view class="Grid-cell cell-u-1of">
+                <text class="text_left">用卡要求</text>
+            </view>
+            <view class="Grid-cell">
+                <text class="text_right">{{detail.requrie}}</text>
+            </view>
+        </view>
+        
+        <view class="Grid">
+            <view class="Grid-cell cell-u-1of">
+                <text class="text_left">优惠说明</text>
+            </view>
+            <view class="Grid-cell">
+                <text class="text_right">{{detail.des}}</text>
+            </view>
+        </view>
+
+        <view class="Grid">
+            <view class="Grid-cell cell-u-1of">
+                <text class="text_left">有效日期</text>
+            </view>
+            <view class="Grid-cell">
+                <text class="text_right">{{detail.validtime}}</text>
+            </view>
+        </view>
+        
+        <view class="Grid">
+            <view class="Grid-cell cell-u-1of">
+                <text class="text_left">使用规则</text>
+            </view>
+            <view class="Grid-cell">
+                <text class="text_right">{{detail.userule}}</text>
+            </view>
+        </view>
+        <!--<view>
+            <text class="text_left">用卡要求</text>
+            <text class="text_right">{{detail.requrie}}</text>             
+        <view>
+        <view>
+            <text class="text_left">优惠说明</text>
+            <text class="text_right">{{detail.des}}</text>               
+        <view>
+        <view>
+            <text class="text_left">有效日期</text>
+            <text class="text_right">{{detail.validtime}}</text>               
+        <view>
+
+        <view>
+            <text class="text_left">使用规则</text>
+            <text class="text_right">{{detail.userule}}</text>               
+        <view>    -->
+    <!--</view>-->
+
+    <view class="text">
+        <view class="line_flag"></view>
+        <text>商户介绍</text>
+    </view>
+
+    <view class="shopdes">
+        <text>{{detail.shopdec}}</text>               
+    <view>
+</view>

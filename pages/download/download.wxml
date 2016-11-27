@@ -1,0 +1,24 @@
+<view>
+    <image src="../image/5.png"  style="width:100%;height:140px;"/>
+
+    <view class="v1">
+        <text class="t1">化繁为简</text>
+        <text class="t2">优惠券、电子票、积分券...，统统尽在银联钱包</text>
+        <image class="image2" src="https://static.95516.com/static/phone/images/icon-coupon.png"></image>
+        <image class="image2" src="https://static.95516.com/static/phone/images/icon-rebate.png"></image>
+        <image class="image2" src="https://static.95516.com/static/phone/images/icon-ticket.png"></image>
+        <image class="image2" src="https://static.95516.com/static/phone/images/icon-activity.png"></image>
+    </view>
+
+
+    <view class="v2">
+        <text class="t3">以简御繁</text>
+        <text class="t4">轻松刷卡，即刻享受钱包中的优惠票券</text>
+        <image src="https://static.95516.com/static/phone/images/iphone01.png" class="image3"></image>
+    </view>
+    <view class="v3">
+        <text class="t5">简而亦减</text>
+        <text class="t6">高贵，不昂贵，畅享实惠精致生活</text>
+        <image class="image4" src="https://static.95516.com/static/phone/images/iphone02.png"></image>
+    </view>
+</view>

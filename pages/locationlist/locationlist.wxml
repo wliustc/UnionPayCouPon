@@ -1,0 +1,16 @@
+<!--pages/locationlist/locationlist.wxml-->
+
+<view class="container">
+    <block wx:for="{{address}}">
+        <view class="brand_item" bindtap="gotoLocation" id="{{item.amaplatitude}}_{{item.amaplongitude}}_{{item.shopdes}}">            
+                <image src="../image/locateHL.png" class="pic"></image>
+                <view class="right_cont">
+                    <text class="name">{{item.shopdes}}</text>
+                    <text class="location">地址：{{item.locatedes}}</text>
+                    <text class="location">电话：{{item.phonenum}}</text>
+                </view>
+            
+        </view>
+    </block>
+</view>
+

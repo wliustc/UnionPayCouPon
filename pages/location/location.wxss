@@ -1,0 +1,34 @@
+#map {
+  padding: 20rpx;
+}
+.text{
+  background-color: #eee;
+}
+.buttomContainer{
+  width: 100%; height:420px;
+  display: flex;
+  flex-flow: row;
+}
+.rightViews{
+  padding:0rpx 50rpx;
+  width: 60%; height:420px;
+  display: flex;
+  flex-flow: column;
+}
+.textContainer{
+  padding: 30rpx 0rpx;
+  height: 70rpx;
+}
+.text{
+  padding: 0rpx 20rpx;
+  height: 70rpx;
+  background: white;
+  vertical-align: center;
+  color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+}
+.dot{
+  width: 20rpx;
+  height: 20rpx;
+}

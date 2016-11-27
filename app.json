@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/start/start", 
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/download/download",
+    "pages/locationlist/locationlist",
+    "pages/location/location",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "银联优惠",
+    "navigationBarTextStyle":"black"
+  }
+}

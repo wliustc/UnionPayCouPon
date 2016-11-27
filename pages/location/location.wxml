@@ -1,0 +1,22 @@
+<!--<scroll-view class="container" id="map" scroll-y="true">
+<view>
+    <text class="text">wx.getLocation接口，测试时获取的经纬度一直不变</text>
+</view>-->
+<view class="container" id="map">
+   <map longitude="{{point.longitude}}" latitude="{{point.latitude}}" markers="{{markers}}" covers="{{covers}}"  scale="16" style="width: 100%; height:420px;"></map>
+   <view class="buttomContainer">
+        <image src="../image/left.jpg" style="padding:30rpx 0; width: 200rpx; height:200rpx;"></image>
+         <view class="rightViews">
+            <view class="textContainer">
+                <image class="dot" src="../image/green.png"></image>
+                <text class="text">{{from}}</text>
+            </view>
+            <text style="height:1rpx; width:100%; background: gainsboro"/>
+            <view class="textContainer"> 
+                <image class="dot" src="../image/red.png"></image>
+                <text class="text">{{dis}}</text>
+            </view>
+        </view>
+   </view>
+</view>
+<!--</scroll-view>-->
